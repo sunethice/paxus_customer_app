@@ -1,0 +1,33 @@
+html, body {
+  /* font-family: 'Montserrat', sans-serif !important; */
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ebebeb;
+  color:#444;
+  font-size: 14px;
+  overflow-x:hidden;
+  /* font-weight: 400; */
+}
+
+.form-container{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.add-cust-wrap{
+    max-width: 460px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
