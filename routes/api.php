@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('/add-customer', [CustomerController::class, 'cpAddCustomer']);
-Route::get('/list-customer', [CustomerController::class, 'cpListCustomers']);
+Route::get('/list-customers', [CustomerController::class, 'cpListCustomers']);

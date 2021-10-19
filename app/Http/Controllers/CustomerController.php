@@ -6,6 +6,7 @@ use App\Http\Traits\JsonResponseTrait;
 use App\Models\Customer;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 
 class CustomerController extends Controller
